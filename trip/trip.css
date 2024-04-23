@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: linear-gradient(145deg, #32b5cd, #fcf9b6);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+/*main div*/
+.main {
+  width: 100%;
+
+}
+/*trip main content*/
+.trip {
+  width: 85%;
+  margin: 100px auto ;
+  text-align: center;
+  
+}
+.trip h1 {
+  font-size: 40px;
+  color: #fff;
+}
+.trip p {
+  font-size: 16px;
+  line-break: auto;
+}
+
+/*trip button*/
+.trip-button {
+  width: 85%;
+  margin: 30px auto ;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+.button {
+  width: 50%;
+  margin: 100px auto;
+}
+.button button {
+  padding: 10px 30px;
+  font-size: 10px;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+}
+.button button:hover {
+  color: #fff;
+  background: linear-gradient(45deg, #32b5cd, #fcf9b6);
+  box-shadow: 0 0 4px #fcf9b6;
+}
+.image {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: end;
+}
+
+#form1 {
+  width: 40%;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  box-shadow:  0 0 5px #fcf9b6;
+  padding:15px 10px;
+  /* -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px); */
+}
+
+#form1 input {
+  
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-align: start;
+  font-size: 15px;
+  border: none;
+  outline: none;
+
+}
+
+/*submit button*/
+#submit1 {
+  margin:10px auto !important;
+  width: 50%!important;
+  padding: 8px 10px !important;
+}
+#submit1:hover {
+  color: #fff;
+  background: linear-gradient(135deg, #32b5cd, #fcf9b6);
+}
+
+
+
+/*show */
+#card {
+  width: 85%;
+  height: auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+.show {
+  width: 200px;
+  height: auto;
+  margin: 10px auto 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 0 5px #fff;
+  gap: 7px;
+  font-size: 10px;
+}
+#card-title {
+  font-size: 15px !important;
+  text-align: center;
+  font-weight: bold;
+  width: 45px;
+  height: 45px;
+  background: #09b77a;
+  border-radius: 30px;
+  padding: 10px;
+  color: #fff;
+  margin-top: 10px;
+}
+#card-email {
+  width: 85%;
+  background: #fff;
+  border-radius: 30px;
+  padding: 3px 18px;
+}
+#card-mobile {
+  width: 85%;
+  background: #fff;
+  border-radius: 30px;
+  padding: 3px 8px;
+}
+#card-from {
+  width: 85%;
+  background: #fff;
+  border-radius: 30px;
+  padding: 3px 8px;
+}
+#card-to{
+    width: 85%;
+    background: #fff;
+    border-radius: 30px;
+    padding: 3px 8px;
+}
+#card-date {
+
+  width: 85%;
+  background: #fff;
+  border-radius: 30px;
+  padding: 3px 8px;
+}
+#card-bike {
+  width: 85%;
+  background: #fff;
+  border-radius: 30px;
+  text-align: center;
+  padding: 3px 8px;
+  margin-bottom: 10px;
+}
+
+#icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#icon i{
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 15px;
+    background: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#icon i:hover{
+  
+    background: linear-gradient(135deg,#32b5cd,#fcf9b6);
+}

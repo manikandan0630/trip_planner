@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="trip.css">
+
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>TripPlanner360</title>
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+    $(document).ready(()=>{
+        $("#submit1").click(()=>{
+          console.log("tet")
+         
+        })
+      })    
+</script>
+    <div class="main" id="main">
+        <div class="trip">
+            <h1>Discover the Enchanting Landscapes</h1>
+
+            <p>Ready to embark on this extraordinary adventure? Secure your spot now by booking your  experience! Simply click the button below to reserve your place and begin your journey into the heart of [Destination]. Our team is here to assist you every step of the way, ensuring a seamless and unforgettable travel experience. Don't miss out on this opportunity to explore the wonders of  – book today!</p>
+        </div>
+        <div class="trip-button">
+           <div class="button">
+            <button id="individual" onclick="individual()">Individual</button>
+            <button id="group">Group</button>
+            <button id="view" onclick="getData()">View</button>
+           </div>
+            <div class="image">
+                <img src="https://static.tacdn.com/img2/brand/feed/tc_cards_2024_c04.png" alt="" height="300px" width=" 300px">
+            </div>
+            <div class="view" >
+                
+            </div>
+            
+        </div>
+        
+    </div>
+     <div  class="container" id="card" >
+     
+
+    </div> 
+   
+    <script src="./main.js"></script>
+  
+</body>
+</html>
